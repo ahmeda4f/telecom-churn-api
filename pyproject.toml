@@ -1,0 +1,11 @@
+[project]
+name = "telecom-churn-api"
+version = "0.1.0"
+dependencies = [
+    "fastapi[standard]",
+    "pydantic",
+    "pandas",
+    "joblib",
+    "scikit-learn==1.6.1",
+    "xgboost"
+]
